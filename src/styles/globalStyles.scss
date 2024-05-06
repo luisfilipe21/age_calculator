@@ -1,0 +1,24 @@
+:root {
+    --purple: hsl(259, 100%, 65%);
+    --red: hsl(0, 100%, 67%);
+    --white-1: hsl(0, 0%, 100%);
+    --white-2: hsl(0, 0%, 94%);
+    --gray-1: hsl(0, 0%, 86%);
+    --gray-2: hsl(0, 1%, 44%);
+    --black: hsl(0, 0%, 8%);
+
+    --size-1: 64px;
+    --size-2: 28px;
+
+    --weight-1: 800;
+    --weight-2: 700;
+    --weight-3: 400;
+
+    --font: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--white-2);
+    height: 100vh;
+    font-family: var(--font);
+}

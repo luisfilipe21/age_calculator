@@ -1,0 +1,13 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    p {
+        font-size: var(--size-1);
+        font-weight: var(--weight-1);
+
+        span{
+            color: var(--purple);
+        }
+    }
+}
