@@ -5,7 +5,7 @@ import style from "./style.module.scss"
 export const Card = () => {
     return (
         <div className="container ">
-            <div className={`${style.card}`}>
+            <div className={style.card}>
                 <div>
                     <Form />
                 </div>
